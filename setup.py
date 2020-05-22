@@ -4,8 +4,8 @@ from setuptools import setup
 
 install_requires = []
 
-if sys.version_info < (2, 7):
-    raise DeprecationWarning('Python 2.6 and older are no longer supported by PAY.JP. ')
+if sys.version_info < (3, 6):
+    raise DeprecationWarning('Python 3.5 and older are no longer supported by PAY.JP. ')
 
 install_requires.append('requests >= 2.7.0, < 3.0.0')
 
@@ -16,7 +16,7 @@ setup(
     author="PAY.JP",
     author_email='support@pay.jp',
     packages=['payjp', 'payjp.test'],
-    url='https://github.com/payjp/payjp-python',
+    url='https://github.com/wozozo/payjp-python',
     install_requires=install_requires,
     tests_require=[
         'mock >= 1.3.0'

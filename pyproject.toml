@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "payjp-python"
+name = "payjp"
 version = "0.1.0"
 description = ""
 authors = ["Yoichi Fujimoto <wozozo@gmail.com>"]
